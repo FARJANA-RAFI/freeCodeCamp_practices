@@ -1,7 +1,9 @@
 body{
     margin: 0;
-    padding: 0;
     overflow: hidden;
+}
+main{
+    width: auto;
 }
 nav{
     width: auto;
@@ -19,7 +21,7 @@ nav{
 h4{
     color: rgb(108, 194, 194);
     font-size: 18px;
-    padding-left: 80px;
+    padding-left: 40px;
     letter-spacing: 3px;
 }
 
@@ -32,7 +34,7 @@ h4{
     font-size: 18px;
     text-transform: capitalize;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 20px;
     letter-spacing: 2px;
     color: #000;
     font-weight: bold;
@@ -66,9 +68,7 @@ h2{
     align-items: center;
     margin:0 auto;
     cursor: pointer;
-    padding: 10px;
     font-size: 20px;
-    border: none;
     padding: 20px 40px;
     background-color: transparent;
     border: 5px solid #000;
@@ -77,11 +77,8 @@ h2{
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 780px) {
     .container{
         width: 300px;
-    }
-    nav{
-        width: 100%;
     }
 }
